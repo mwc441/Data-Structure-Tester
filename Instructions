@@ -1,0 +1,27 @@
+The Data Structure Tester takes a text file with lines of numbers
+It will then test if the given inputs result in a Stack, a Queue, a Priority Queue, or none of them!
+
+Lines with a single number indicate how many of the following lines are a part of the data structure
+For lines with two numbers, the leftmost number indicates whether there is a push/pop, and the rightmost 
+value is the number being pushed/popped from the data structure
+
+The number 1 indicates a "push" into the data structure, and the number 2 indicates a "pop" out of the data structure
+
+For example:
+6
+1 2
+1 3
+1 4
+2 2
+2 3
+2 4
+
+This data structure includes 6 pushes/pops, as indicated by the first number
+The second line indicates that there is a push of the number 2 into the data structure
+The fifth line indicates that there is a pop of the number 2 out of the data structure
+
+The data structure tester, would indicate that this is a queue!
+You can have hundreds of lines testing multiple data structures in just one file!
+
+In order to make it work, you need a file named "GuessDataStructure.txt" with your inputs inside of it!
+A test file is provided with many different examples of data structures!
